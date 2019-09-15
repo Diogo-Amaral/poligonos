@@ -43,12 +43,5 @@ class Retangulo extends \yii\db\ActiveRecord
             'altura' => 'Altura',
         ];
     }
-
-    public static function sumArea()
-    {
-        $data = $this->find()->all();
-        return $data;
-    }
-
-
+    
 }
