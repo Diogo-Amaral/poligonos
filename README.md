@@ -1,5 +1,7 @@
 # API - Polígonos
+
 Yii2 Framework
+
 Cadastra retângulos e triângulos - Soma áreas dos polígonos
 
 
@@ -44,7 +46,7 @@ docker-compose up
 `/v1/triangulo`
 
 
-**GET | POST | PUT | DELETE**
+**GET | PUT | DELETE**
 
 
 `/v1/retangulo/:id`
