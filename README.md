@@ -1,6 +1,5 @@
 # API - Polígonos
 Yii2 Framework
----
 Cadastra retângulos e triângulos - Soma áreas dos polígonos
 
 
