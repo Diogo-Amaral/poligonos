@@ -1,16 +1,40 @@
 API - Cadastra retângulos e triângulos - Soma áreas dos polígonos
 ---
 
-**Migration**
+**Docker-compose**
 
-yii migrate
-``
+```
+docker-compose  up
+```
+
+**Configure Migrations**
+
+```
+./yii migrate
+```
+
 
 **Url**
 
+/v1/retangulo
+
 /v1/retangulo/:id
+
+
+/v1/triangulo
+
 /v1/triangulo/:id
-/vi/soma-areas
+
+
+/v1/soma-areas
+
+
+**Methods**
+
+GET | POST | UPDATE | DELETE
+
+
+
 
 
 
