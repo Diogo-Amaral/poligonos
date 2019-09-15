@@ -1,6 +1,7 @@
 API - Cadastra retângulos e triângulos - Soma áreas dos polígonos
 ---
 
+
 **Docker-compose**
 
 ```
@@ -16,7 +17,8 @@ docker-compose  up
 
 **Methods - URLs**
 
-GET
+
+**GET
 
 
 /v1/retangulo
@@ -28,7 +30,7 @@ GET
 /v1/soma-areas
 
 
-POST 
+**POST 
 
 
 /v1/retangulo
@@ -37,7 +39,7 @@ POST
 /v1/triangulo
 
 
-GET | POST | PUT | DELETE
+**GET | POST | PUT | DELETE
 
 
 /v1/retangulo/:id
@@ -46,7 +48,7 @@ GET | POST | PUT | DELETE
 /v1/triangulo/:id
 
 
-##Example Request body - POST | PUT
+**Example Request body - POST | PUT
 
 
 ```
