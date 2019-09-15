@@ -1,54 +1,60 @@
-API - Cadastra retângulos e triângulos - Soma áreas dos polígonos
+# API - Polígonos
+Yii2 Framework
 ---
+Cadastra retângulos e triângulos - Soma áreas dos polígonos
 
+
+
+
+## Instalação
 
 **Docker-compose**
 
 ```
-docker-compose  up
+docker-compose up
 ```
 
-**Configure Migrations**
+**Configurando migrations**
 
 ```
 ./yii migrate
 ```
 
-
-**Methods - URLs**
-
-
-**GET
+## Métodos - URLs
 
 
-/v1/retangulo
+
+**GET**
 
 
-/v1/triangulo
+`/v1/retangulo`
 
 
-/v1/soma-areas
+`/v1/triangulo`
 
 
-**POST 
+`/v1/soma-areas`
 
 
-/v1/retangulo
+**POST**
 
 
-/v1/triangulo
+`/v1/retangulo`
 
 
-**GET | POST | PUT | DELETE
+`/v1/triangulo`
 
 
-/v1/retangulo/:id
+**GET | POST | PUT | DELETE**
 
 
-/v1/triangulo/:id
+`/v1/retangulo/:id`
 
 
-**Example Request body - POST | PUT
+`/v1/triangulo/:id`
+
+
+**Example Request body - POST | PUT**
 
 
 ```
@@ -57,12 +63,4 @@ docker-compose  up
   "altura":20
 }
 ```
-
-
-
-
-
-
-
-
 
