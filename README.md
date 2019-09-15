@@ -55,7 +55,7 @@ docker-compose up
 `/v1/triangulo/:id`
 
 
-**Example Request body - POST | PUT**
+**Exemplo - request body - POST | PUT**
 
 
 ```
