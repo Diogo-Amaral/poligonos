@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'pgsql:host=localhost;port=5432;dbname=poligonos',
+    'dsn' => 'pgsql:host=pgsql;port=5432;dbname=poligonos',
     'username' => 'postgres',
     'password' => 'docker',
     'charset' => 'utf8',
