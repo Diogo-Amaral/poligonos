@@ -1,4 +1,4 @@
-version: '2'
+version: "2"
 services:
   php:
     image: yiisoftware/yii2-php:7.1-apache
@@ -6,7 +6,7 @@ services:
       - ~/.composer-docker/cache:/root/.composer/cache:delegated
       - ./:/app:delegated
     ports:
-      - '8000:80'
+      - "8000:80"
 
   pgsql:
     image: postgres:9.5

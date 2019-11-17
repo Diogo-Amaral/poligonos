@@ -30,7 +30,7 @@ class SomaAreasController extends Controller
             $area->AreaTotal += $retangulo->base * $retangulo->altura;
         }
         foreach(Triangulo::find()->all() as $triangulo) {
-            $area->AreaTotal += $triangulo->base * $triangulo->altura;
+            $area->AreaTotal += ($triangulo->base * $triangulo->altura) / 2;
         }
 
 
